@@ -6,8 +6,8 @@ app.get('/', (req, res) => {
   res.send('Welcome to Initial NodeJS App!')
 })
 
-app.get('/v2', (req, res) => {
-    res.send('Welcome to v2 route!')
+app.get('/hello', (req, res) => {
+    res.send('Welcome to Helm Practice Talks!')
   })
 
 app.listen(port, () => {
